@@ -111,7 +111,7 @@ public class PagosToretesController {
 	// PAGAR EN MERCADO PAGO CHEKOUT API
 	@RequestMapping(value="/pagar/token/api", method = RequestMethod.POST)
 	public ResponseEntity<?> pagarApi(@RequestBody TokenApi token) throws Exception{
-		MercadoPagoConfig.setAccessToken("TEST-7821903690306348-101720-ceb20f0d995968a05f390ba1b38caa3a-658221744");
+		MercadoPagoConfig.setAccessToken("TEST-6340040620305361-072206-2ecec5cceae380860af49776e2ec579d-658221744");
 		String data = "";
 		PaymentClient client = new PaymentClient();
 		
