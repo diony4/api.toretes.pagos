@@ -71,7 +71,7 @@ public class PagosToretesController {
 		String data = "";
 			//MercadoPago.SDK.setClientId("4241670256428229");
 			//MercadoPago.SDK.setClientSecret("6WYLdiLTvASg4qPPsYfeAPHRSU1K6zNt");
-			MercadoPagoConfig.setAccessToken("TEST-7821903690306348-101720-ceb20f0d995968a05f390ba1b38caa3a-658221744");
+			MercadoPagoConfig.setAccessToken("APP_USR-5665754493591230-072205-2ffae0dce7ba342d2b59ecc17f2b8117-658221744");
 			
 	
 			PreferenceBackUrlsRequest backUrls = PreferenceBackUrlsRequest.builder()
